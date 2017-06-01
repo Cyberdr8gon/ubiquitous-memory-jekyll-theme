@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "ubiquitous-memory-jekyll-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["Sam Bateman"]
   spec.email         = ["sam@bateman.io"]
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/Cyberdr8gon/ubiquitous-memory-jekyll-theme"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
+  spec.files         = `git ls-files -z`.split("\x0")
 
   spec.add_runtime_dependency "jekyll", "~> 3.4"
 
